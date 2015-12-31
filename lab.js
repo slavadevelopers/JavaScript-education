@@ -1,3 +1,26 @@
+/*лаба 2.3
+var age=28;
+var massege='';
+if(age>=18 && age<=59){
+    massege='Вам еще работать и работать';
+}else if(age>59){
+    massege='Вам пора на пенсию';
+}else if(age>=1 && age<=17){
+    massege='Вам работать еще рано - учитесь';
+}else{
+    massege='Значение возраста неизвестно';
+}
+console.log(massege);*/
+/*тернарный оператор
+var x=0;
+var y='';
+//if(x==1){
+//    y='One';
+//}else{
+//    y='Zero';
+//}
+y=(x==1) ? 'one' : 'zero';
+print(y);*/
 /*ветвление if вывести числа от 0 до 10 и подписями нечю чет и ноль
 for(var cnt=0; cnt<=10; cnt++){
 if(cnt==0){
