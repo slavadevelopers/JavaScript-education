@@ -1,3 +1,12 @@
+//вывести числа от 322 до 356 % 3 =0
+var num=356;
+for(var cnt=322; cnt<=num; cnt++){
+    if (cnt%3!=0){
+        continue;
+    }
+    print(cnt);
+    break;
+}
 /*лаба 2.3
 var age=28;
 var massege='';
