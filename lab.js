@@ -1,4 +1,17 @@
-//конструкция switch
+//вывести количество ворон на правельном русском языке
+var num=25;
+var str='На ветки сидит '+num+' ворон';
+var x='';
+if(num%100<11 || num%100>14){
+    switch(num%10){
+        case(1):x='а';break;
+        case(2):x='ы';break;
+        case(3):x='ы';break;
+        case(4):x='ы';break;
+    }
+}
+console.log(str+x);
+/*конструкция switch
 putstr('Vvedite znachenie ot 0 do 5: ');
 var x=readline();
 x*=1;
@@ -21,7 +34,7 @@ switch(x){
     case(5):
         print('five');
         break;
-}
+}*/
 /*вывести числа от 322 до 356 % 3 =0
 var num=356;
 for(var cnt=322; cnt<=num; cnt++){
