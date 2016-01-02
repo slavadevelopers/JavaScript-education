@@ -1,12 +1,35 @@
-//вывести числа от 322 до 356 % 3 =0
+//конструкция switch
+putstr('Vvedite znachenie ot 0 do 5: ');
+var x=readline();
+x*=1;
+switch(x){
+    case(0):
+        print('zero');
+        break;
+    case(1):
+        print('one');
+        break;
+    case(2):
+        print('two');
+        break;
+    case(3):
+        print('three');
+        break;
+    case(4):
+        print('foure');
+        break;
+    case(5):
+        print('five');
+        break;
+}
+/*вывести числа от 322 до 356 % 3 =0
 var num=356;
 for(var cnt=322; cnt<=num; cnt++){
     if (cnt%3!=0){
         continue;
     }
     print(cnt);
-    break;
-}
+}*/
 /*лаба 2.3
 var age=28;
 var massege='';
