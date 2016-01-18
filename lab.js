@@ -1,4 +1,10 @@
-//функция outer, показывает различную облать деятельности переменных.
+//анонимная функция
+function outer(){
+    return function(x){print(x);}
+}
+var x = outer();
+x("Hello");
+/*функция outer, показывает различную облать деятельности переменных.
 var x = "X";
 var y = "Y";
 
@@ -7,10 +13,18 @@ function outer(){
     print("x: " + x);//x
     print("y: " + y);//Y
     y = "y";
+    function inner(z) {
+        var y = "_y";
+        print("x: " + x);//x
+        print("y: " + y);//_y
+        print("z: " + z);//z
+    }
+    inner("z");
 }
 outer();
 print("x: " + x);//X
 print("y: " + y);//Y
+*/
 /*lab-3-1
 function power(base, exp){
     var result=1;
