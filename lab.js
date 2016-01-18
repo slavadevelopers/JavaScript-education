@@ -1,9 +1,19 @@
-//функция ads, тернарный оператор
+//lab-3-1
+function power(base, exp){
+    var result=1;
+    for(var cnt = 0;cnt<exp;cnt++)
+        result*=base;
+    return result;
+}
+print(power(2,10));
+print(power(3,5));
+print(power(5,3));
+/*функция ads, тернарный оператор
 function ads(num){
     return (num < 0) ? -num: num;
 }
 print(ads(5));
-print(ads(-5));
+print(ads(-5));*/
 /*функция ads, кострукция if
 function ads(num){
     if (num < 0)
@@ -160,7 +170,7 @@ while(cnt<=exp){
     cnt++;
 }
 print(result);*/
-/* два ы степени 10
+/* два в степени 10
 var number=2;
 var exp=10;
 var result=1;
