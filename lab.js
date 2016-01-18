@@ -1,4 +1,16 @@
-//lab-3-1
+//функция outer, показывает различную облать деятельности переменных.
+var x = "X";
+var y = "Y";
+
+function outer(){
+    var x = "x";
+    print("x: " + x);//x
+    print("y: " + y);//Y
+}
+outer();
+print("x: " + x);//X
+print("y: " + y);//Y
+/*lab-3-1
 function power(base, exp){
     var result=1;
     for(var cnt = 0;cnt<exp;cnt++)
@@ -7,7 +19,7 @@ function power(base, exp){
 }
 print(power(2,10));
 print(power(3,5));
-print(power(5,3));
+print(power(5,3));*/
 /*функция ads, тернарный оператор
 function ads(num){
     return (num < 0) ? -num: num;
