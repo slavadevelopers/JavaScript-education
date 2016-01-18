@@ -1,4 +1,12 @@
-//функция ads
+//функция ads, кострукция if
+function ads(num){
+    if (num < 0)
+        return -num;
+        return num;
+}
+print(ads(5));
+print(ads(-5));
+/*функция ads, кострукция if, else
 function ads(num){
     if (num < 0)
         return -num;
@@ -6,7 +14,7 @@ function ads(num){
         return num;
 }
 print(ads(5));
-print(ads(-5));
+print(ads(-5));*/
 /*функция сложения
 function sum(n1, n2){
     return n1 + n2;
