@@ -1,11 +1,16 @@
-//Функция сложения
+//функция add
+function add(num){
+    if (num < 0)
+        return -num;
+}
+/*функция сложения
 function sum(n1, n2){
-    return(n1 + n2);
+    return n1 + n2;
 }
 var res = sum(5, 3);
 print(res);
-print(sum(2, 4));
-/*Декларирование и вывод функци
+print(sum(2, 4));*/
+/*декларирование и вывод функци
 function sayHello(name, sign){
     name = name || "Guest";
     sign = sign || "..."
