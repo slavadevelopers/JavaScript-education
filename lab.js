@@ -1,4 +1,10 @@
-//замыкание
+//не жестко определено действие
+function foo(base, count, action){
+    for(var i = base; i<=count; i++)
+        action(i);
+}
+foo(1, 100000, print);
+/*замыкание
 function say (greet){
     return function(name){
         return greet + " " + name;
@@ -10,7 +16,7 @@ print(en("Mike"));
 
 var ru = say("Privet");
 print(ru("Vyasya"));
-print(ru("Petya"));
+print(ru("Petya"));*/
 /*анонимная функция
 function outer(){
     return function(x){print(x);}
