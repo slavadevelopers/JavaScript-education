@@ -1,9 +1,21 @@
-//Рекурсия
+//lab 3-2
+function compare(x){
+        return function(y){
+        if (y==x) 
+            return null;
+        return y>x;
+    }
+}
+var c = compare(10);
+print(c(9));
+print(c(11));
+print(c(10));
+/*Рекурсия
 function power(base, exp){
     if(exp == 0) return 1;
     return base * power(base, exp-1);
 }
-print(power(2, 1000));
+print(power(2, 1000));*/
 /*не жестко определено действие
 function foo(base, count, action){
     for(var i = base; i<=count; i++)
