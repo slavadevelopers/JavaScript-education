@@ -10,7 +10,7 @@ if(num%100<11 || num%100>14){
         case(4):x='ы';break;
     }
 }
-console.log(str+x);
+print(str+x);
 /*конструкция switch
 putstr('Vvedite znachenie ot 0 do 5: ');
 var x=readline();
