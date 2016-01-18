@@ -1,8 +1,12 @@
-//функция add
-function add(num){
+//функция ads
+function ads(num){
     if (num < 0)
         return -num;
+    else
+        return num;
 }
+print(ads(5));
+print(ads(-5));
 /*функция сложения
 function sum(n1, n2){
     return n1 + n2;
