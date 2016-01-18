@@ -1,9 +1,15 @@
-//не жестко определено действие
+//Рекурсия
+function power(base, exp){
+    if(exp == 0) return 1;
+    return base * power(base, exp-1);
+}
+print(power(2, 1000));
+/*не жестко определено действие
 function foo(base, count, action){
     for(var i = base; i<=count; i++)
         action(i);
 }
-foo(1, 100000, print);
+foo(1, 100000, print);*/
 /*замыкание
 function say (greet){
     return function(name){
