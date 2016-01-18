@@ -1,9 +1,22 @@
-//анонимная функция
+//замыкание
+function say (greet){
+    return function(name){
+        return greet + " " + name;
+    }
+}
+var en = say("Hello");
+print(en("John"));
+print(en("Mike"));
+
+var ru = say("Privet");
+print(ru("Vyasya"));
+print(ru("Petya"));
+/*анонимная функция
 function outer(){
     return function(x){print(x);}
 }
 var x = outer();
-x("Hello");
+x("Hello");*/
 /*функция outer, показывает различную облать деятельности переменных.
 var x = "X";
 var y = "Y";
