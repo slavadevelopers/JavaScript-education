@@ -1,4 +1,11 @@
-//Декларирование и вывод функци
+//Функция сложения
+function sum(n1, n2){
+    return(n1 + n2);
+}
+var res = sum(5, 3);
+print(res);
+print(sum(2, 4));
+/*Декларирование и вывод функци
 function sayHello(name, sign){
     name = name || "Guest";
     sign = sign || "..."
@@ -7,7 +14,7 @@ function sayHello(name, sign){
 sayHello("Petr", "!");
 var n = "Mike";
 sayHello(n);
-sayHello();
+sayHello();*/
 /*вывести количество ворон на правельном русском языке
 var num=25;
 var str='На ветки сидит '+num+' ворон';
