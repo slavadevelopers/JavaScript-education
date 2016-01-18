@@ -6,6 +6,7 @@ function outer(){
     var x = "x";
     print("x: " + x);//x
     print("y: " + y);//Y
+    y = "y";
 }
 outer();
 print("x: " + x);//X
