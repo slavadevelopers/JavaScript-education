@@ -1,4 +1,14 @@
-//вывести количество ворон на правельном русском языке
+//Декларирование и вывод функци
+function sayHello(name, sign){
+    name = name || "Guest";
+    sign = sign || "..."
+    print("Hello, "+name+sign);
+}
+sayHello("Petr", "!");
+var n = "Mike";
+sayHello(n);
+sayHello();
+/*вывести количество ворон на правельном русском языке
 var num=25;
 var str='На ветки сидит '+num+' ворон';
 var x='';
@@ -10,7 +20,7 @@ if(num%100<11 || num%100>14){
         case(4):x='ы';break;
     }
 }
-print(str+x);
+print(str+x);*/
 /*конструкция switch
 putstr('Vvedite znachenie ot 0 do 5: ');
 var x=readline();
